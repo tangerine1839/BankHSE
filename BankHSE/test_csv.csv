@@ -1,0 +1,14 @@
+BankAccounts
+Id,Name,Balance
+1,first_account,24
+2,second_account,4
+
+Categories
+Id,Name,Type
+1,salary,Income
+2,shop,Expense
+
+Operations
+Id,Type,BankAccountId,Amount,Date,CategoryId,Description
+1,Income,1,14,04.11.2025 18:57:30,1,desc
+2,Expense,2,15,04.11.2025 18:57:44,2,d
